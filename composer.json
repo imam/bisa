@@ -15,5 +15,5 @@
     "require-dev":{
       "phpunit/phpunit": "~5.7"
     },
-    "minimum-stability": "dev-master"
+    "minimum-stability": "dev"
 }
