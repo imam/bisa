@@ -2,7 +2,7 @@
 Simple Role-Based Permissions for Laravel 5, Inspired by Laravel Router
 
 [![Latest Stable Version](https://poser.pugx.org/imam/bisa/v/stable)](https://packagist.org/packages/imam/bisa)
-[![Latest Stable Version](https://travis-ci.org/imam/bisa.svg?branch=master)](https://packagist.org/packages/imam/bisa)
+[![Build Status](https://travis-ci.org/imam/bisa.svg?branch=master)](https://travis-ci.org/imam/bisa)
 [![Total Downloads](https://poser.pugx.org/imam/bisa/downloads)](https://packagist.org/packages/imam/bisa)
 [![License](https://poser.pugx.org/imam/bisa/license)](https://packagist.org/packages/imam/bisa)
 
