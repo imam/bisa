@@ -14,7 +14,7 @@ class Bisa{
     {
         $this->role_collection = new RoleCollection();
         $this->user_model = User::class;
-        $this->user_role_attribute = 'role';
+        $this->user_role_attribute = config('user_role_attribute','role');
     }
 
     /**
@@ -30,7 +30,7 @@ class Bisa{
             $user = \Auth::user();
         }
         try{
-            return isset($this->role_collection->roles[$user->role]->permissions[$permission]);
+            return isset($this->role_collection->roles[$user->{$this->user_role_attribute}]->permissions[$permission]);
         }catch (\Exception $e){
             return false;
         }
