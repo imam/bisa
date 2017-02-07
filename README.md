@@ -7,8 +7,9 @@ Simple Role-Based Permissions for Laravel 5, Inspired by Laravel Router
 [![License](https://poser.pugx.org/imam/bisa/license)](https://packagist.org/packages/imam/bisa)
 
 ## Introduction
-Bisa is a simple role-based permissions for Laravel that doesn't need 
-that's so simple it won't need you to modify your database at all.
+Bisa is a simple role-based permissions for Laravel  that's so simple it 
+won't need to modify your database at all. It's 
+[Zizaco/Entrust](https://github.com/Zizaco/entrust) big fans, just simpler.
 
 ## Installation
 
@@ -18,7 +19,7 @@ First, install through composer:
 composer require imam/bisa
 ```
 
-Second, add Bisa provider and facade to `config/app.php`:
+Second, add Bisa service provider and facades to `config/app.php`:
 ```php
 'providers' => [
     ...,
@@ -88,9 +89,7 @@ instead pass a user model to the second parameter.
 
 ## Now what?
 Bisa is on heavy development progress and I plan lots of other features. 
-You can request new features through add issues to this repository and
-of course you can contribute too by adding pull request. It's my first public
-package, so if you find any problem, please add issues.
+Every contributions is appreciated.
 
 ## Contact me
 Imam Assidiqqi
