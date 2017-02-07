@@ -3,11 +3,11 @@
 
 <img src="https://travis-ci.org/imam/bisa.svg?branch=master">
 
-### Introduction
+## Introduction
 Bisa is a simple role-based permissions for Laravel that doesn't need 
 that's so simple it won't need you to modify your database at all.
 
-### Installation
+## Installation
 
 First, install through composer:
 
@@ -40,7 +40,7 @@ configuration file.
 
 Done! Simple right? :)
 
-### Role and Permission
+## Role and Permission
 Now, you can create a new file in `App` folder named `Role.php`. We will use
 this as a role and permission management file.
 
@@ -70,7 +70,7 @@ To attach permission(s) to the role:
 
 Done! 
 
-#### Checking for roles and permissions
+### Checking for roles and permissions
 
 For now, Bisa only have one function to checking roles and permissions.
 ```
@@ -83,13 +83,13 @@ instead pass a user model to the second parameter.
 \Bisa::can('create-user',App\User::find(1))
 ```
 
-### Now what?
+## Now what?
 Bisa is on heavy development progress and I plan lots of other features. 
 You can request new features through add issues to this repository and
 of course you can contribute too by adding pull request. It's my first public
 package, so if you find any problem, please add issues.
 
-### Contact me
+## Contact me
 Imam Assidiqqi
 
 imam@imam.tech
