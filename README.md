@@ -24,6 +24,7 @@ Second, add Bisa provider and facade to `config/app.php`:
 'aliases' => [
     ...,
     'Bisa' => Imam\Bisa\BisaFacade::class,
+    'Role' => Imam\Bisa\RoleFacade::class,
 ]
 ```
 
@@ -49,30 +50,46 @@ this as a role and permission management file.
 namespace App;
 
 class Role{
+
     public function init(){
         
     }
+    
 }
 ```
 
 To create a new role, it's as simple as write this in `init()` function above:
 ```
-<?php
-
-namespace App;
-
-use Bisa;
-
-class Role{
-    public function init(){
-       Role::create('admin');
-    }
-}
+\Role::create('admin');
 ```
 
 To attach permission(s) to the role:
 ```
-Role::create('admin')->permission('create-user','edit-user',...);
+\Role::create('admin')->permissions('create-user','edit-user',...);
 ```
 
 Done! 
+
+#### Checking for roles and permissions
+
+For now, Bisa only have one function to checking roles and permissions.
+```
+\Bisa::can('create-user')
+```
+It will retrieve the current authenticated user and check the role through
+the `role` attribute on your user model. If you want to check another user
+instead pass a user model to the second parameter.
+```
+\Bisa::can('create-user',App\User::find(1))
+```
+
+### Now what?
+Bisa is on heavy development progress and I plan lots of other features. 
+You can request new features through add issues to this repository and
+of course you can contribute too by adding pull request. It's my first public
+package, so if you find any problem, please add issues.
+
+### Contact me
+Imam Assidiqqi
+
+imam@imam.tech
