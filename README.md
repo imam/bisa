@@ -1,5 +1,5 @@
 # Bisa
-## Simple Role-Based Permissions for Laravel 5, Inspired by Laravel Router
+Simple Role-Based Permissions for Laravel 5, Inspired by Laravel Router
 
 <img src="https://travis-ci.org/imam/bisa.svg?branch=master">
 
