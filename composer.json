@@ -1,0 +1,12 @@
+{
+    "name": "imam/bisa",
+    "description": "Awesome Role-Based Permission, Laravel-Router Inspired",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Imam Assidiqqi",
+            "email": "imam@imam.tech"
+        }
+    ],
+    "require": {}
+}
