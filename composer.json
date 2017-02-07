@@ -15,5 +15,10 @@
     "require-dev":{
       "phpunit/phpunit": "~5.7"
     },
+    "autoload":{
+      "psr-4": {
+        "Bisa\\": "src/"
+      }
+    },
     "minimum-stability": "dev"
 }
