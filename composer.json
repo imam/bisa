@@ -1,6 +1,6 @@
 {
     "name": "imam/bisa",
-    "description": "Awesome Role-Based Permission, Laravel-Router Inspired",
+    "description": "Simple Role-Based Permission for Laravel 5, Inspired by Laravel Router",
     "keywords" : ["laravel","roles","laravel5"],
     "homepage": "http://bisa.imam.tech",
     "license": "MIT",
