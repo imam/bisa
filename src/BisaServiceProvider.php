@@ -1,11 +1,7 @@
 <?php
 
-namespace Bisa;
+namespace Imam\Bisa;
 
-use Bisa\Bisa;
-use Bisa\PermissionModel;
-use Bisa\Role;
-use Bisa\RoleCollection;
 use Illuminate\Support\ServiceProvider;
 
 class BisaServiceProvider extends ServiceProvider

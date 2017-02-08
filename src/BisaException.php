@@ -1,5 +1,5 @@
 <?php
 
-namespace Bisa;
+namespace Imam\Bisa;
 
 class BisaException extends \Exception{}

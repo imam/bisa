@@ -1,6 +1,6 @@
 <?php
 
-namespace Bisa;
+namespace Imam\Bisa;
 
 use App\User;
 
