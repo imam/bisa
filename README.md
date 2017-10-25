@@ -87,10 +87,6 @@ instead pass a user model to the second parameter.
 \Bisa::can('create-user',App\User::find(1))
 ```
 
-## Now what?
-Bisa is on heavy development progress and I plan lots of other features. 
-Every contributions is appreciated.
-
 ## Contact me
 Imam Assidiqqi
 
